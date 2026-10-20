@@ -56,6 +56,7 @@ function cetakNota() {
         "\x1B\x61\x01" +                   // Rata tengah
         "Terima Kasih Atas Pembelian Anda!\n\n\n\n";
 
+    // Intent bersih khusus untuk membuka RawBT tanpa fallback Play Store
     let rawbtUrl = "intent:" + encodeURIComponent(textToPrint) + "#Intent;" +
         "scheme=rawbt;" +
         "package=ru.is210.rawbtprint;" +
